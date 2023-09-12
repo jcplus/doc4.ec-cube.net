@@ -1,47 +1,46 @@
 ---
 layout: single
-title: 各種インストール方法
+title: 各种安装方法
 keywords: install
 tags: [quickstart, install]
 permalink: quickstart/install
 folder: quickstart
 ---
 
-
 ---
 
-各種インストール手順をまとめました。
+整理了各种安装步骤。
 
-## ローカルへインストールする
+## 在本地安装
 
-### GUIでインストールする
+### 使用GUI安装
 
-[パッケージ版](https://www.ec-cube.net/download/){:target='_blank'}をダウンロードしていただき、Webインストーラ(GUI)を使用してローカルへインストールする方法です。
+[下载包版](https://www.ec-cube.net/download/){:target='_blank'}，然后使用Web安装器(GUI)在本地进行安装。
 
-+ [Windows環境でXAMPPを使用したインストール方法](/quickstart/gui_win_install)
-+ [Mac環境でMAMPを使用したインストール方法](/quickstart/gui_mac_install)
++ [在Windows环境下使用XAMPP进行安装](/quickstart/gui_win_install)
++ [在Mac环境下使用MAMP进行安装](/quickstart/gui_mac_install)
 
-### CUI & GUIでインストールする
+### 使用CUI & GUI安装
 
-コマンドを実行するとGitHub上にあるデフォルトのEC-CUBE4をダウンロード、その後はWebインストーラ(GUI)を使用してローカルへインストールする方法です。
+执行命令后，从GitHub上下载默认的EC-CUBE4，然后使用Web安装器(GUI)在本地进行安装。
 
-+ [ComposerからWebインストーラでインストールする](/quickstart/composer_web_installer)
++ [使用Composer从Web安装器进行安装](/quickstart/composer_web_installer)
 
-### CUIでインストールする
+### 使用CUI安装
 
-[GitHub](https://github.com/EC-CUBE/ec-cube){:target="_blank"}から任意のEC-CUBE4をcloneしていただき、コマンドを実行しインストールする方法です。
+从[GitHub](https://github.com/EC-CUBE/ec-cube){:target="_blank"}克隆任意版本的EC-CUBE4，然后执行命令进行安装。
 
-+ [symfony/cliを使用してインストールする](https://qiita.com/nanasess/items/de9f5450717cc8ede51a){:target="_blank"}
-+ [Docker Composeを使用してインストールする](/quickstart/docker_compose_install)
-+ [Dockerを使用してインストールする](/quickstart/docker_install)
-+ [コマンドラインからインストールする](/quickstart/command_install)
++ [使用symfony/cli进行安装](https://qiita.com/nanasess/items/de9f5450717cc8ede51a){:target="_blank"}
++ [使用Docker Compose进行安装](/quickstart/docker_compose_install)
++ [使用Docker进行安装](/quickstart/docker_install)
++ [从命令行进行安装](/quickstart/command_install)
 
-## サーバーへインストールする
+## 在服务器安装
 
-[パッケージ版](https://www.ec-cube.net/download/){:target='_blank'}をダウンロードしていただき、Webインストーラ(GUI)を使用してサーバーへインストールする方法です。
+[下载包版](https://www.ec-cube.net/download/){:target='_blank'}，然后使用Web安装器(GUI)在服务器进行安装。
 
-+ [サーバーへインストールする](/quickstart/web-installer)
++ [在服务器上安装](/quickstart/web-installer)
 
-## Tips
+## 小贴士
 
-+ [コマンドラインインターフェイス](/quickstart/cli)
++ [命令行接口](/quickstart/cli)
